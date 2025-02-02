@@ -10,6 +10,7 @@ html {
 
 .page {
   display: flex;
+  align-items: center;
   position: relative;
   inline-size: 1200px;
   block-size: 100%;
@@ -23,6 +24,7 @@ html {
 
 .content {
   display: grid;
+
   grid-template-columns: 711px 399px;
   justify-content: center;
   grid-auto-flow: row;
@@ -50,7 +52,6 @@ html {
   block-size: 386px;
 }
 
-
 .result__video {
   block-size: 100%;
   inline-size: inherit;
@@ -66,23 +67,7 @@ html {
 
 .content__video-card {
   display: flex;
-
-  align-content: start;
-}
-
-.content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.content__video-card-description-container {
-  flex-grow: 1;
-}
-
-.content__video-card-description {
-  line-height: 16.2px;
+  align-items: start;
 }
 
 .search-form__fieldset {
@@ -241,10 +226,6 @@ article:hover {
   outline: 1px solid #fff;
 }
 
-.content__video-card {
-  display: flex;
-  align-items: start;
-}
 .content__video-card-description-container {
   width: 196px;
   flex-grow: 1;
